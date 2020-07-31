@@ -278,9 +278,6 @@ body {
   width: 21vw;
   margin: 1vw;
 }
-.content > .photos3 > iframe {
-  margin-top: 1vw;
-}
 .content > .photos2 {
   position: absolute;
   top: 25vh;
@@ -292,11 +289,15 @@ body {
   width: 32.5vw;
   margin: 1vw;
 }
-.content > .photos2 > iframe {
-  margin-top: 1vw;
-}
 .content > nav {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+iframe {
+  margin-top: 1vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  width: 60vw;
 }
