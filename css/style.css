@@ -246,3 +246,33 @@ nav:hover > .nav--sub3 {
 .disp8:hover > p {
   opacity: 0.99;
 }
+
+.content {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.content > header {
+  text-align: center;
+}
+.content > header > h3 {
+  font-size: 20vh;
+  font-family: "overpass", sans-serif;
+  font-weight: 600;
+  pointer-events: none;
+}
+.content > .photos {
+  position: absolute;
+  top: 25vh;
+  left: 15vw;
+  justify-content: space-between;
+  max-width: 70vw;
+}
+.content > .photos > img {
+  width: 20vw;
+}
+.content > nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
