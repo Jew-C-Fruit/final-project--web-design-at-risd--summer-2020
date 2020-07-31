@@ -278,6 +278,10 @@ body {
   width: 21vw;
   margin: 1vw;
 }
+.content > .photos3 iframe {
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+}
 .content > .photos2 {
   position: absolute;
   top: 25vh;
@@ -295,8 +299,9 @@ body {
   left: 0;
 }
 
-iframe {
-  margin-top: 1vw;
+#pdf {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
   margin-left: 20vw;
   margin-right: 20vw;
   width: 60vw;
